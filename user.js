@@ -1,4 +1,4 @@
-$("style").last().append(`
+$(`<style>
 #users .uzr.azoz1 img.co {
   width: 0px !important;
     height: 0px !important;
@@ -108,7 +108,7 @@ margin-left: 9px;
 
 
 }
-`);
+</style>`).insertBefore("body")
 var l_itvnour=setInterval(function(){
     if(myid!=null){
         clearInterval(l_itvnour);
